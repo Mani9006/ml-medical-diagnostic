@@ -337,6 +337,20 @@ mypy src/
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Multi-Disease Risk Stratification from Structured Clinical Features**
+
+_An ensemble study on UCI heart, diabetes, and breast cancer datasets with calibrated probabilistic outputs_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** clinical risk stratification, ensemble learning, calibration, decision-support, UCI datasets
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
