@@ -332,3 +332,38 @@ mypy src/
 ## License
 
 [MIT License](LICENSE) - Copyright (c) 2024 Medical Diagnostic Assistant Team
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Patient Data Synthesizer] --> B[Feature Engineer]
+    B --> C[Outlier Clipper]
+    C --> D[Ensemble Classifier<br/>RF + GB]
+    D --> E[Risk Stratification]
+    E --> F[Streamlit Dashboard]
+    D -.metrics.-> G[ROC / Confusion]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**49 passing**, **0 failing**, **0 skipped** (total 49, framework: pytest)
+
+## References & Further Reading
+
+- Dietterich, T. G. (2000). *Ensemble methods in machine learning.* MCS 2000. [↗](https://link.springer.com/chapter/10.1007/3-540-45014-9_1)
+- Pedregosa et al. (2011). *Scikit-learn: Machine Learning in Python.* JMLR 12. [↗](https://jmlr.org/papers/v12/pedregosa11a.html)
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/ml-medical-diagnostic) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->

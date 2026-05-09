@@ -1,0 +1,7 @@
+flowchart LR
+    A[Patient Data Synthesizer] --> B[Feature Engineer]
+    B --> C[Outlier Clipper]
+    C --> D[Ensemble Classifier<br/>RF + GB]
+    D --> E[Risk Stratification]
+    E --> F[Streamlit Dashboard]
+    D -.metrics.-> G[ROC / Confusion]
